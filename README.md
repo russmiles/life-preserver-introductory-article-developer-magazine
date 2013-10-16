@@ -26,7 +26,7 @@ The typical layered architecture most common form of diagram used for visualisin
 
 The layered architecture promotes a feeling of 'vertical gravity' in that it feels that each layer is built on top of another. This is fine as far as it goes until the Domain Objects (my definition here is the components that are unique to your application's domain and that do not compromise the expressiveness of your ubiquitous language according to Domain Driven Design) are introduced as a vertical 'elevator-style' 'layer' that bridges the horizontal layers.
 
-TBD Picture of the Layered architecture with Domain Objects vertical 
+![Layered Architecture Diagram with Domain Objects Added](images/layered-architecture-2.png)
 
 ## The Problems of the Layered Architecture
 
