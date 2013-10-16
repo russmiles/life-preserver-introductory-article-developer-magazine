@@ -59,7 +59,18 @@ Diagrams, alongside our understanding of the domain and even the languages and f
 
 ## A Better Approach: Thinking of an Island, and a Circle 
 
-Got here.
+While I don't necessarily see the layered architecture dying anytime soon, I think we need a better approach that actually helps us organise our components and ends up being a true and comprehendible reflection of the actual structure of our software.
+
+As a starting point, consider your software conceptually as an island, so following the stereotypically desert island we'll make our software a circle:
+
+TBD Picture of a circle from the tool.
+
+Your software application has a core that represents the components that capture your application's unique domain; in the layered architecture these would be your domain objects. Your domain objects may be organised into many cohesive areas of concern.
+
+To bring this to life we're going to use a concrete example of an Ordering system for a local Noodle Bar, the Yummy Noodle Bar in fact.
+
+![Yummy Noodle Bar](images/yummynoodle.jpg)
+
 
 ## Core and Integration: Life Preservation
 
@@ -70,6 +81,12 @@ Got here.
 ## (Re) Discovering Hexagonal Architectures
 
 ## Summary
+
+Course/Workshop signup and contact page on site.
+
+Interesting in seeing how the Life Preserver can be implemented in real code? Check out the current and forthcoming samples that are being published to the [Simplicity Itself tutorials section](http://www.simplicityitself.com/tutorials). 
+
+Many of these examples show how to effectively implement each of the domains and sub-domains that your own Life Preserver will capture using the [Spring Portfolio](http://www.spring.io), however it's important to remember that the Life Preserver approach and tool, along with the ideas of simple event-driven components, are entirely agnostic to your choices of implementation technology.
 
 ## Author Biography
 
