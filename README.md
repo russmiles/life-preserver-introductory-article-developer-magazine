@@ -48,7 +48,9 @@ The Layered Architecture moves into this ghostly realm where it no longer really
 
 In short, the Layered Architectural view doesn't help you organise your software's component parts to best effect. If anything, it confuses you.
 
-## Introducing Miles' Law*
+## Surfacing and Decision Making: Introducing Miles' Law*
+
+Architectural and Design Diagrams should aim to support emerging solutions as well as keeping pace with the change to our software. Our diagrams should provides a means of `surfacing` the concerns that need consideration in our design in order to support better `decision making` as the design evolves. These two activities are crucial to producing coherent, clear and comprehendible software that can adapt to the necessary change that it is subjected to during the development process. 
 
 The diagrams we use to visualise and rationalise about our software, alongside a number of other factors, inherently inform the structure of the software we write. 
 
@@ -81,13 +83,19 @@ To bring this to life we're going to use a concrete example of an Ordering syste
 
 ## Core and Integration: Life Preservation
 
+## Packages for Inner Domains
+
 ## Simple, Event-Driven Components
 
 ## Adaptability through Events
 
 ## (Re) Discovering Hexagonal Architectures
 
+## Surfacing and Decision Making
+
 ## Summary
+
+TBD Recap about the Surfacing and Decision Making capabilities that the Life Preserver brings.
 
 This article has been serialised from the ["Simplicity in Software: Principles, Patterns, Practices and Tools for Building Adaptable Software"](https://leanpub.com/simplicityinsoftware) book by [Russ Miles](http://www.simplicityitself.com/consultancy) and [David Dawson](http://www.simplicityitself.com/consultancy) available at [https://leanpub.com/simplicityinsoftware](https://leanpub.com/simplicityinsoftware). An accompanying course or working is also available if you register an interest at [http://www.simplicityitself.com/courses](http://www.simplicityitself.com/courses).
 
