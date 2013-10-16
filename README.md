@@ -88,7 +88,11 @@ For the reasons previously mentioned, the Layered Architectural approach unfortu
 
 While I don't necessarily see the layered architecture dying anytime soon, I think we need a better approach that actually helps us organise our components and ends up being a true and comprehendible reflection of the actual structure of our software.
 
-As a starting point, consider your software conceptually as an island, so following the stereotypically desert island we'll make our software a couple of circles:
+As a starting point, consider your software conceptually as an island:
+
+!["Your Application, Your Software, as an Island"](images/desert-island.jpg)
+
+Drawing an island each time would be a tedious job, so instead we'll use an abstraction for our starting point making our software a couple of circles:
 
 TBD Picture of a circle from the tool.
 
