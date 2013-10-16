@@ -52,7 +52,9 @@ In short, the Layered Architectural view doesn't help you organise your software
 
 The diagrams we use to visualise and rationalise about our software, alongside a number of other factors, inherently inform the structure of the software we write. 
 
-Diagrams, alongside our understanding of the domain and even the languages and frameworks upon which we rely, are tools for not just expressing how we think about our software but also guiding our thinking in how we approach its architecture and design.
+Miles' Law states that:
+
+> "Diagrams, alongside our understanding of the domain and even the languages and frameworks upon which we rely, are tools for not just expressing how we think about our software but also guiding our thinking in how we approach its architecture and design."
 
 So diagrams are not passive participants in the architecture and design process, they can be enhancing or inhibiting players in the thinking that becomes our software's design. For this reason I believe the Layered Architectural approach is dangerous as it not only confuses when it does not reflect the true breakdown of your software, it also fallaciously and subliminally guides our thinking. We need a better way, especially if we wish our software itself to embrace change…
 
