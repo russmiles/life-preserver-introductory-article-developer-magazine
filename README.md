@@ -4,7 +4,7 @@ While recently working with one of my clients I realised that there was several 
 
 In this article I'd like to share the tool and approach I came up with.
 
-## The Questions
+## The Key Questions We're Looking to Answer
 
 First let's look at the questions that kept commonly coming up with my client:
 
