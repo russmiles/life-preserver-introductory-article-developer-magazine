@@ -88,7 +88,7 @@ For the reasons previously mentioned, the Layered Architectural approach unfortu
 
 While I don't necessarily see the layered architecture dying anytime soon, I think we need a better approach that actually helps us organise our components and ends up being a true and comprehendible reflection of the actual structure of our software.
 
-As a starting point, consider your software conceptually as an island, so following the stereotypically desert island we'll make our software a circle:
+As a starting point, consider your software conceptually as an island, so following the stereotypically desert island we'll make our software a couple of circles:
 
 TBD Picture of a circle from the tool.
 
@@ -101,22 +101,48 @@ To bring this to life we're going to use a concrete example of an Ordering syste
 
 ## Core and Integration: Life Preservation
 
-## Domains and Code Organisation
+TBD Introduce the key characteristics of the core and integration domains. integration being essentially 'compromise' between the evolutionary pace of external systems and application integration, and the core being importantly able to evolve at the pace set by the development teams working directly on this application.
+
+## Organising Concerns and Code with Domains
+
+TBD: Organising and reducing components with a direct mapping to packages.
+
 TBD Packages for Java.
 
 ## Simple, Event-Driven Components
 
-## Adaptability through Events
+TBD Introduce the key characteristics of the components. How they can be reduced down to micro and macro concerns and organised within the package structure.
+
+Lead on to what is the contract between domains? What is the implementation of the boundaries between domains?
+
+
+## Adaptability through Events and the Event Domain
+
+TBD Talk about events being the documents of exchange between domains, with any number of transformations happening in order to de-couple the domains. Talk about the different types of decoupling. Talk about taking it to tyne limit with data-driven, data structure events and the components implementing Postel's law in order.
+
+## Intent and Events within the Event Domain: CQRS
+
+TBD Talk about the support for CQRS within the event domain.
+
+## A Graceful Increase in Essential Complexity
+
+TBD Now that the event domain is used to declare the exchanges and routing between different autonomous domains, talk here about how the different components in the event domain can be made more complex, introducing patterns such as Disruptor etc.
 
 ## (Re) Discovering Hexagonal Architectures
 
+TBD: It just so happens that all this work was not occurring in isolation, and had been nicely preceded by Alistair Cockburn's Hexagonal Architectures.
+
+Arguably breaking the hegemony of the Layered Architecture has simply led to re-discovering the Hexagonal Architectural approach, and the Life Preserver has taken this two steps further by taking advantage of the latest patterns in de-coupling domains using events and Domain Driven Design, while at the same time offering a practical tool for Organising, Reducing and surfacing those concerns and their boundaries/coupling.
+
 ## Surfacing and Decision Making
+
+TBD Ultimately the Life Preserver is a surfacing and decision making tool. Run through the steps involved in creating and maintaining one.
 
 ## Summary
 
 TBD Recap about the Surfacing and Decision Making capabilities that the Life Preserver brings.
 
-This article has been serialised from the ["Simplicity in Software: Principles, Patterns, Practices and Tools for Building Adaptable Software"](https://leanpub.com/simplicityinsoftware) book by [Russ Miles](http://www.simplicityitself.com/consultancy) and [David Dawson](http://www.simplicityitself.com/consultancy) available at [https://leanpub.com/simplicityinsoftware](https://leanpub.com/simplicityinsoftware). An accompanying course or working is also available if you register an interest at [http://www.simplicityitself.com/courses](http://www.simplicityitself.com/courses).
+The Life Preserver is just one tool for simplifying your software towards the goal of building software that can embrace change through adaption. This article has been serialised from the ["Simplicity in Software: Principles, Patterns, Practices and Tools for Building Adaptable Software"](https://leanpub.com/simplicityinsoftware) book by [Russ Miles](http://www.simplicityitself.com/consultancy) and [David Dawson](http://www.simplicityitself.com/consultancy) available at [https://leanpub.com/simplicityinsoftware](https://leanpub.com/simplicityinsoftware). An accompanying course or working is also available if you register an interest at [http://www.simplicityitself.com/courses](http://www.simplicityitself.com/courses).
 
 Interesting in seeing how the Life Preserver can be implemented in real code? Check out the current and forthcoming samples that are being published to the [Simplicity Itself tutorials section](http://www.simplicityitself.com/tutorials). 
 
