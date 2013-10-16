@@ -22,7 +22,7 @@ To begin my investigation into how to answer the perfectly valid question of "Wh
 
 The typical layered architecture most common form of diagram used for visualising and conceptualising a piece of software, especially Enterprise software (which I loosely define as software that is built in a company for the exclusive use of that company).
 
-TBD Picture of a layered architecture.
+![Typical Layered Architecture Diagram](images/layered-architecture-1.png)
 
 The layered architecture promotes a feeling of 'vertical gravity' in that it feels that each layer is built on top of another. This is fine as far as it goes until the Domain Objects (my definition here is the components that are unique to your application's domain and that do not compromise the expressiveness of your ubiquitous language according to Domain Driven Design) are introduced as a vertical 'elevator-style' 'layer' that bridges the horizontal layers.
 
@@ -40,7 +40,7 @@ At some point the team's voice collectively takes on the tone of Bill Lumbergh f
 
 What?! We have a diagram, and remember a diagram has power as it does inform our thinking about the software, that is no longer based in reality when it comes to the actual software? So what good is it then?
 
-To be fair, I've used the Layered Architecture diagram approach to communicate about 'typical' software applications before on the courses I often run. However it's also fair to say that generally the students and I recognise that the diagram will rapidly fall apart when the software enters reality and so not a huge amount of attention is heaped upon the diagram. 
+Even I've used the Layered Architecture diagram approach to communicate about 'typical' software applications before on the courses I often run. However it's also fair to say that generally the students and I recognise that the diagram will rapidly fall apart when the software enters reality and so not a huge amount of attention is heaped upon the diagram. 
 
 In many respects, as the Layered Architecture moves from the world of abstract, layered conceptualising and into the real world of "Where does my component go?", it rapidly moves into an idealistic, a priori existence on some ethereal plane whose only purpose seems to be to make us feel guilty (that the software doesn't 'really' follow that ideal breakdown) and confused (when the layered architecture is attempted to be used to comprehend our software at all).
 
