@@ -50,7 +50,7 @@ In short, the Layered Architectural view doesn't help you organise your software
 
 ## Surfacing and Decision Making: Introducing Miles' Law*
 
-Architectural and Design Diagrams should aim to support emerging solutions as well as keeping pace with the change to our software. Our diagrams should provides a means of `surfacing` the concerns that need consideration in our design in order to support better `decision making` as the design evolves. These two activities are crucial to producing coherent, clear and comprehendible software that can adapt to the necessary change that it is subjected to during the development process. 
+Architectural and Design Diagrams should aim to support emerging solutions as well as keeping pace with the change to our software. Our diagrams should provides a means of *surfacing* the concerns that need consideration in our design in order to support better *decision making* as the design evolves. These two activities are crucial to producing coherent, clear and comprehendible software that can adapt to the necessary change that it is subjected to during the development process. 
 
 The diagrams we use to visualise and rationalise about our software, alongside a number of other factors, inherently inform the structure of the software we write. 
 
