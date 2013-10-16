@@ -92,7 +92,9 @@ As a starting point, consider your software conceptually as an island:
 
 !["Your Application, Your Software, as an Island"](images/desert-island.jpg)
 
-Drawing an island each time would be a tedious job, so instead we'll use an abstraction for our starting point making our software a couple of circles:
+An island has its inland area and its ports and harbours for allowing access to the outside world. This is analogous to software where there are core components and then components whose responsibility is to talk, or integrate, with the world outside the particular software application.
+
+Drawing an island each time would be a tedious job, so instead we'll do what developers do best and use an abstraction for our starting point making our software a couple of circles:
 
 TBD Picture of a circle from the tool.
 
