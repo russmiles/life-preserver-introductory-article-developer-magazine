@@ -62,9 +62,27 @@ So diagrams are not passive participants in the architecture and design process,
 
 > * Ok, 'Law' might be going a bit far here, but if [Conway's Law](http://en.wikipedia.org/wiki/Conway's_law) states that "organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations", then I'm fairly confident that my own law, that our means of visualising and rationalising about our software has a direct impact on the design of our software, will stand the test of time also.
 
-## Why Adaptablility Matters
+## Why Adaptability Matters
 
-TBD Got here.
+*Change* is an inevitable force upon your application's structure and, more importantly, on the assumptions you have made to-date that comprise the structure of your software.
+
+Change is a ubiquitous and accelerating force that is often comes from a number of sources including:
+
+* Discovery of the need for new functionality; we'll call this *Extension* of your application.
+
+* A clearer understanding is achieved of the existing, possibly erroneous, functionality; we'll call this *Amendment* of your software.
+
+Either of these two types of change potentially has the power to   cause significant pain when architecture, design and implementation is approached.
+
+A common anecdote that effectively explains what we mean by change would be:
+
+> You experience the true pain of change when someone simply asks "Can you make this small change here…" and you come close to weeping as the answer that is forced out of you is "It's not that simple…" 
+
+On the other side of the equation, *Adaption* is the reaction that is necessary from the thing, in our case your software, that is the subject of the change. There is a causal relationship between change and adaption; where change is the *cause* and adaption is the *effect*:
+
+When your collective assumptions about future change are aligned with the incoming Change, and your code and it's intention are humanly comprehendible, the impact of Adaption can be small. When your assumptions are not aligned with future change, the impact of adaption is large and painful and also the range of adaption options can be reduced.
+
+Software development, in particular agile software development that embraces change, needs to result in software that is adaptable enough to handle the changes that may likely occur. The first step in ensuring that software is adaptable enough is to ensure that it can be comprehended and, secondarily, that whatever tools are used to comprehend your software help you adapt it as your design emerges and evolves.
 
 ## A Better Approach: Thinking of an Island, and a Circle 
 
