@@ -28,7 +28,7 @@ The layered architecture promotes a feeling of 'vertical gravity' in that it fee
 
 TBD Picture of the Layered architecture with Domain Objects vertical 
 
-## Problems of the Layered Architecture
+## The Problems of the Layered Architecture
 
 Given the popularity of the layered approach to visualising and rationalising about software, what arguments can we really have against it?
 
