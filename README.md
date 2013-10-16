@@ -78,11 +78,11 @@ A common anecdote that effectively explains what we mean by change would be:
 
 > You experience the true pain of change when someone simply asks "Can you make this small change here…" and you come close to weeping as the answer that is forced out of you is "It's not that simple…" 
 
-On the other side of the equation, *Adaption* is the reaction that is necessary from the thing, in our case your software, that is the subject of the change. There is a causal relationship between change and adaption; where change is the *cause* and adaption is the *effect*:
+On the other side of the equation, *Adaption* is the reaction that is necessary from the thing, in our case your software, that is the subject of the change. There is a causal relationship between change and adaption; where change is the *cause* and adaption is the *effect*.
 
-When your collective assumptions about future change are aligned with the incoming Change, and your code and it's intention are humanly comprehendible, the impact of Adaption can be small. When your assumptions are not aligned with future change, the impact of adaption is large and painful and also the range of adaption options can be reduced.
+When your collective assumptions about future change are aligned with the incoming changes, and your code and it's intention are humanly comprehendible, the impact of necessary adaption can be small. When your assumptions are not aligned with future change, the impact of adaption is large and painful and also the range of adaption options can be reduced.
 
-Software development, in particular agile software development that embraces change, needs to result in software that is adaptable enough to handle the changes that may likely occur. The first step in ensuring that software is adaptable enough is to ensure that it can be comprehended and, secondarily, that whatever tools are used to comprehend your software help you adapt it as your design emerges and evolves.
+For the reasons previously mentioned, the Layered Architectural approach unfortunately, at a minimum, does not support decisions that help you increase the adaptability of your software design, but can in fact work against it.
 
 ## A Better Approach: Thinking of an Island, and a Circle 
 
