@@ -101,7 +101,8 @@ To bring this to life we're going to use a concrete example of an Ordering syste
 
 ## Core and Integration: Life Preservation
 
-## Packages for Inner Domains
+## Domains and Code Organisation
+TBD Packages for Java.
 
 ## Simple, Event-Driven Components
 
