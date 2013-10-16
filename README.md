@@ -34,9 +34,9 @@ Given the popularity of the layered approach to visualising and rationalising ab
 
 The first hint comes from the inevitable response that I get whenever I encounter the layered architecture diagram for a given piece of software and begin to discuss it with the development team.
 
-At some point the team's voice collectively takes on the tone of Bill Lumbergh from the film, ["Office Space"](http://www.imdb.com/title/tt0151804/):
+At some point the team's voice collectively takes on the tone of Bill Lumbergh from ["Office Space"](http://www.imdb.com/title/tt0151804/):
 
-* "Umm, yeah, that's not how the software actually works; that's just for the architecture/designers/insert some other group here"
+!["Umm, yeah, that's not how the software actually works; that's just for the architecture/designers/insert some other group here"](images/bill-lumbergh.jpg)
 
 What?! We have a diagram, and remember a diagram has power as it does inform our thinking about the software, that is no longer based in reality when it comes to the actual software? So what good is it then?
 
