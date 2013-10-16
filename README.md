@@ -89,7 +89,7 @@ To bring this to life we're going to use a concrete example of an Ordering syste
 
 ## Summary
 
-Course/Workshop signup and contact page on site.
+This article has been serialised from the ["Simplicity in Software: Principles, Patterns, Practices and Tools for Building Adaptable Software"](https://leanpub.com/simplicityinsoftware) book by [Russ Miles](http://www.simplicityitself.com/consultancy) and [David Dawson](http://www.simplicityitself.com/consultancy) available at [https://leanpub.com/simplicityinsoftware](https://leanpub.com/simplicityinsoftware). An accompanying course or working is also available if you register an interest at [http://www.simplicityitself.com/courses](http://www.simplicityitself.com/courses).
 
 Interesting in seeing how the Life Preserver can be implemented in real code? Check out the current and forthcoming samples that are being published to the [Simplicity Itself tutorials section](http://www.simplicityitself.com/tutorials). 
 
